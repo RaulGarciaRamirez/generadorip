@@ -2,7 +2,7 @@
 public class Generadorip {
 
 	public static int generarNumero(int min, int max) {
-		return (int) (Math.random() * (max - min) + min);
+		return (int) (Math.random() * (max + 1 - min) + min);
 	}
 
 	public static String generarIp() {
