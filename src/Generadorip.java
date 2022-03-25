@@ -7,7 +7,7 @@ public class Generadorip {
 
 	public static String generarIp() {
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i <= 3; i++) {
+		for (int i = 0; i < 3; i++) {
 			sb.append(generarNumero(0, 254));
 			sb.append(".");
 		}
